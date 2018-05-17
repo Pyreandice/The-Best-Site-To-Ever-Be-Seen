@@ -1,19 +1,52 @@
+/* Universal Styling Rule(s) */
 html {
     background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.58rem;
 }
 
-.main {
+a {
+    color: white;
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+/* Navbar */
+.navbar {
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar list {
 width: 100%;
-height: 50%;
-background-color: white;
+height: auto;
+}
+
+/* Navbar Children */
+.navbar-list, a {
+    height: 69px;
+    padding-left: 30px;
+    float: right;
+    vertical-align: middle;
+   /* background-color: red; */
+}
+
+/* Main Body of Webpage */
+/* And It's Children */
+.main {
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
 }
 
 .main-container {
-height: 100%;
-width: 75%;
-background-color: blanchedalmond;
+    height: 100%;
+    width: 75%;
+    background-color: blanchedalmond;
 }
 
 .main-contents {
-    
+    height: 300px;
 }
